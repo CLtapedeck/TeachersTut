@@ -23,4 +23,9 @@ public class SpringBootDemoApplicationTests {
 		Assert.assertEquals((testDAO.getAllTeachers()).getTeacherList().size(),3);
 	}
 
+	@Test
+	public void checkingIfTestsRun() {
+		Assert.assertTrue(true);
+	}
+
 }
